@@ -1,0 +1,59 @@
+.about_us_title{
+    width: 100%;
+    padding: 34px 60px;
+    height: 500px;
+   }
+   .abTitle{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 22px;
+   }
+   .about_us_title h3{
+    font-family: 'Montserrat';   font-size: 24px;
+   font-weight: 700;
+   line-height: 34px;
+   }
+   .about_context{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .about_context .text{
+       display: flex;
+       font-family: 'Montserrat';   
+       font-size: 20px;
+   font-weight: 300;
+   line-height: 28px;
+   margin-top: 20px;
+   width: 80%;
+   }
+   @media screen and (max-width:1750px) {
+   .about_context{
+    gap: 10px;
+    flex-direction: column;
+  }
+   }
+   
+   @media screen and (max-width:830px) {
+    .scroll_about{
+        margin-bottom: 50px;
+    }
+   }
+   @media screen and (max-width:656px) {
+       .about_context .text{
+           font-size: 18px;
+           margin-bottom: 50px;
+   }
+   
+}
+   @media screen and (max-width:430px) {
+    .about_us_title{
+       padding: 24px 20px;
+       text-align: center;
+    } 
+    .about_context{
+        gap: px;
+        flex-direction: column;
+      }  
+}

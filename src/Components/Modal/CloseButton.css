@@ -1,0 +1,14 @@
+.closer{
+    position: absolute;
+    right: 0;
+    top:-4px;
+}
+
+
+@media screen and (max-width:460px) {
+    .closer{
+        width: 30px;
+        height: 30px;
+        top: -6;
+    }
+}

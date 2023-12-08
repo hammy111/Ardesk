@@ -1,0 +1,147 @@
+.our_parents {
+    width: 100%;
+    height: 930px;
+    padding: 25px 150px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.our_parents_line {
+    width: 3px;
+    height: 100px;
+    background-color: #D9D9D9;
+}
+
+.our_parents .about_us .about_us_title {
+    color: rgba(255, 255, 255, 0.692);
+    font-family: monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: 15px;
+}
+
+.our_parents .about_us h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: monospace;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.our_parents p {
+    color: white;
+    text-align: center;
+}
+
+.logos_images {
+    display: flex;
+    gap: 100px;
+}
+
+.our_parents .btn{
+    width: 202px;
+    height: 50px;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: monospace;
+    align-items: center;
+    border-radius: 25px;
+}
+.our_parents .btn.btn_circle {
+    border: 2px solid #fff;
+    cursor: pointer;
+    background-size: 0;
+    background-image: linear-gradient(#FFF, #FFF);
+    transition: background-size .2s color ease-in-out;
+}
+.our_parents .btn.btn_circle:hover {
+    background-size: 50% 50%;
+    color: black
+}
+@media screen and (max-width:800px) {
+    .our_parents {
+        gap: 15px;
+    }
+
+    .our_parents .about_us h3 {
+        font-size: 45px;
+    }
+
+    .our_parents_line {
+        height: 80px;
+    }
+
+    .logos_images {
+        margin-top: 10px;
+        gap: 30px;
+    }
+
+    .our_parents button {
+        transform: translateY(50px);
+    }
+    .scroll_nextsection{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:656px) {
+    .our_parents {
+        height: 600px;
+        padding: 25px 80px;
+
+    }
+
+    .our_parents .about_us h3 {
+        font-size: 35px;
+    }
+
+    .our_parents .about_us .about_us_title {
+        top: 10px;
+    }
+
+    .our_parents button {
+        transform: translateY(10px);
+        width: 170px;
+    }
+
+    .logos_images {
+        gap: 15px;
+    }
+
+    .logos_images img {
+        width: 150px;
+        height: 50px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:565px) {
+    .our_parents{
+        padding: 25px 20px;
+    }
+    .our_parents_line {
+        height: 50px;
+        
+    }
+    .logos_images {
+      gap: 7px;
+    }
+    .logos_images img {
+        width: 90px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+}

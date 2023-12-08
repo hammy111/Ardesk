@@ -1,0 +1,94 @@
+.interesting{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color:#dddd;
+    gap: 40px;
+    padding: 40px 60px;
+    align-items: center;
+}
+.interesting .text{
+    display: flex;
+    padding: 49px 60px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 25px;
+    width:1220px;
+
+}
+.interesting .text .inform{
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: justify;
+}
+.interesting .mini_bg {
+    
+    margin-top: 70px;
+    width: 540px;
+    height: 250px;
+}
+
+@media screen and (max-width:1600px) {
+    .interesting{
+        gap: 25px;
+        padding: 20px 30px;
+        justify-content: center;
+    }
+    .interesting .text{
+        padding: 20px 30px;
+        width:650px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .interesting{
+        height: 320px;
+    }
+    .interesting .text{
+        padding: 5px 10px;
+        height: 200px;
+        width:600px;
+    }
+    .interesting .inform{
+        font-size: 18px;
+    }
+    .interesting .mini_bg {
+        margin-top: 230px;
+    height: 400px;
+    }
+   
+}
+@media screen and (max-width:1080px) {
+    .interesting{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        height: 400px;
+    }
+    .interesting .mini_bg {
+        margin-top: 0px;
+        width:600px;
+    }
+    .interesting .text{
+        height:200px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    
+    .interesting .text{
+        width: 280px;
+        height: 350px;
+        padding: 10px 15px;
+    }
+    .interesting .mini_bg{
+        display: none;
+    }
+}
+
+
+

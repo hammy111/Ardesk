@@ -1,0 +1,24 @@
+{
+  "productInfoTitle": "Autodesk ընկերության պաշտոնական ներկայացուցիչ  եվ ուսումնական կենտրոն Հայաստանում",
+  "productInfoDescription": "",
+   "What_we_have_title":"Ինչ ունենք մենք",
+  "products":"Ծրագրեր",
+  "weHave":"Մենք ունենք ամեն ինչ,ինչ առկա է AUTODESK-ում",
+  "Train":"Դասընթացներ",
+   "certificate":"Ձեռք բեր AUTODESK սետիֆիկացում",
+"productcollection":"Ծրագրեր | Ծրագրաշարեր",
+"Products_title":"Ծրագրեր",
+"about":"Մեր մասին",
+"news":"Նորություններ",
+"our":"Մեր գործընկերները",
+"readmore":"Իմանալ ավելին",
+  "orderCallModal": {
+    "name": "Անուն",
+    "lastName": "Ազգանուն",
+    "email": "Էլ․ Հասցե",
+    "phone": "Հեռախոսահամար",
+    "chooseTheProduct": "Ընտրի՛ր դասընթացը",
+    "addProduct": "+ ավելացնել պրոդուկտ",
+    "submit": "ՀաստատԵԼ"
+  }
+}

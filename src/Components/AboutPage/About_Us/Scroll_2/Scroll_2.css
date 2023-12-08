@@ -1,0 +1,8 @@
+.scroll_elem_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    gap: 10px;
+}

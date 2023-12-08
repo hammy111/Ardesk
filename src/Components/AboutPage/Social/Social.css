@@ -1,0 +1,101 @@
+.social_media{
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    padding: 34px 60px;
+
+}
+.social_media .media_span{
+    font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+
+
+}
+.social_media h4{
+font-size: 36px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+line-height: 50px;
+}
+.social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_title{
+display: flex;
+flex-direction: column;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+.icon_title h4{
+font-size: 36px;
+font-weight: 700;
+margin-top: 20px;
+margin-left: 20px;
+}
+.icon_title .icons_span{
+font-size: 20px;
+/* margin-bottom: 20px; */
+margin-left: 20px;
+}
+
+@media screen and (max-width:990px) {
+    .icons img{
+        width: 30px;
+        height: 30px;
+    }
+    .icon_title h4{
+        font-size: 24px;
+    }
+    .icon_title .icons_span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .social_icon{
+     gap:30px;   
+    }
+    .icons img{
+        width: 20px;
+        height: 20px;
+    }
+    .icon_title h4{
+        font-size: 20px;
+    }
+    .icon_title .icons_span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .social_icon{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .social_media{
+        height: 400px;
+        text-align: center;
+    }
+    .media_span{
+        font-size: 12px;
+    }
+    .social_icon{
+align-items: center;    }
+.social_media h4{
+    font-size: 18px;
+}
+.social_icon{
+gap: 10px;}
+}

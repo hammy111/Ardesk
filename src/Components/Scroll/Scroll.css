@@ -1,0 +1,32 @@
+.scroll_elem {
+    position: relative;
+    top: 80px;
+    width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    gap: 10px;
+}
+.scroll_span{
+    color: #fff;
+}
+@media screen and (max-width:1300px) {
+.scroll_elem{
+    top: 0px; 
+}
+}
+@media screen and (max-width:530px) {
+    .scroll_elem{
+       font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .scroll_elem {
+        display: none;
+    }
+}

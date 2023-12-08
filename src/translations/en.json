@@ -1,0 +1,25 @@
+{
+
+  "productInfoTitle": "Authorized Autodesk reseller and training center in Armenia",
+  "productInfoDescription": "After long negotiations and challenges the goal is reached. ArDesk has  become Autodesk reseller in Armenia. This step involves a few revolutionary positive changes, which not only offer a new perspective in the job market, but can have a huge impact on architectural/engineering education in Armenia.",
+  "What_we_have_title": "WHAT WE HAVE",
+  "products": "Products",
+  "weHave":"We have all products from Autodesk",
+  "Train":"Trainings",
+  "certificate":"Stand out with an Autodesk Certification",
+  "productcollection":"Products | Collections",
+"Products_title":"Products",
+"about":"About us",
+"news":"News",
+"our":"OUR PARENTS",
+"readmore":"Read More",
+  "orderCallModal": {
+    "name": "Name",
+    "lastName": "Last Name",
+    "email": "E-Mail",
+    "phone": "Phone",
+    "chooseTheProduct": "Choose The Product",
+    "addProduct": "+ add the product",
+    "submit": "submit"
+  }
+}
